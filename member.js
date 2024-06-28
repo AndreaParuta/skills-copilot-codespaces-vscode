@@ -1,10 +1,10 @@
 function skillsmember() {
-  return {
-    skills: ["Javascript", "React", "Redux", "Node", "MongoDB"],
-    bio: {
-      name: "John Doe",
-      age: 30, 
-      location: "USA"
-    }
-  };
+    var member = {
+        name: "John Doe",
+        age: 26,
+        skills: ["JavaScript", "React", "Node", "MongoDB"],
+    };
+    return member;
 }
+module.exports = skillsmember;
+
