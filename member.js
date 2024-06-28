@@ -3,4 +3,8 @@ function skillsmember() {
     skills: ["Javascript", "React", "Redux", "Node", "MongoDB"],
     bio: {
       name: "John Doe",
-      age
+      age: 30, 
+      location: "USA"
+    }
+  };
+}
